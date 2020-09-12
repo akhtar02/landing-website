@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background: transparent;
+
+}
+
+.navbar .nav-item .nav-link{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700px;
+    letter-spacing: 3px;
+}
+.navbar .navbar-toggler:focus{
+    outline: none;
+}
+.main{
+    background-image: url(../img/01.jpg);
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.main .child{
+    background: #5c08bd;
+        opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 185px;
+}
+
+.main .child .content {
+    margin-top: 50px;
+    color: #ffffff; 
+    line-height: 2px;
+
+}
+.main .child .content h1{
+font-family: sans-serif;
+font-weight: 800px;
+margin-bottom: 20px;
+font-size: 48px;
+margin-top: 20px;
+
+}
+
+.main .child .content p{
+    font-family: sans-serif;
+    font-size: 14px;
+ 
+    }
+
+ .main .child .content button{
+    font-weight: 700;
+    font-size: 14px;
+    color: #5c08bd;
+     padding: 10px;
+     padding-right: 27px;
+     padding-left: 27px;
+     margin-top: 20px;
+     border-radius: 20px;
+        }
+    
+/* =======================about me=================== */
+.about-me .imgsec{
+    width: 40%;
+}
+.about-me .aboutme-content{
+    width: 60%;
+}
+.about-me h1 , .my-services .my-services-head h1 , .contact .contacthead h1{
+  font-weight: 700;
+  font-size:35px;
+  color: #4c456e;
+}
+
+.about-me img , .my-services .my-services-head img , .contact .contacthead img{
+    /* width: 8%; */
+    position: relative;
+    bottom: 10px;
+}
+
+.about-me p , .notbold , .my-services  .my-services-head p{
+    font-size:15px;
+    color: #6c6b6e;
+    font-family: serif;
+    margin-top: 15px;
+    line-height: 2;
+}
+.about-me .myimg{
+    width: 267px;
+    height: 440px;
+    border-radius: 7px;
+    position: relative;
+    right: 275px;
+    bottom: 40px;
+    box-shadow: 0 0 10px grey;
+    text-align:center;
+}
+
+
+.about-me .imgborder{
+    border: 8px solid #8308bd;
+    opacity: 0.8;
+    /* width: 280px; */
+    /* height: 440px; */
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 204px;
+    padding-bottom: 204px;
+    border-radius: 7px;
+    box-shadow: inset 2px 2px 15px  grey,
+    2px 2px 15px #ffc4f2;
+    position: relative;
+    left: 30px;
+    text-align:center;
+}
+
+.about-me .bold{
+    font-weight: 600;
+    color:#454545;
+}
+.about-me .me span{
+    line-height: 3;
+}
+
+.about-me button{
+    border:none;
+    background-color: #5c08bd;
+    opacity: 0.7;
+    padding: 14px;
+    padding-left: 45px;
+    padding-right: 45px;
+    color: #ffffff;
+    border-radius: 60px;
+    margin-top: 35px;
+    font-weight: 600;
+}
+
+.about-me .aboutme-content{
+    padding: 30px;
+}
